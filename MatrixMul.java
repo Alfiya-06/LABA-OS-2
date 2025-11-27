@@ -34,7 +34,7 @@ public class MatrixMul {
         } catch (NumberFormatException e) {
             System.err.println("Ошибка: N и P должны быть целыми числами");
             System.exit(1);
-            return; // формально не нужно, но убирает предупреждения
+            return; 
         }
 
         // Теперь N и P точно инициализированы — компилятор доволен
